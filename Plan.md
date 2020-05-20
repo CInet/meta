@@ -37,7 +37,9 @@ The combinatorial abstraction of discrete CI structures (semigraphoids)
 contains the combinatorial abstraction of linear independence (matroids).
 In this case, the unary relation of linear independence of a set of
 vectors was "upgraded" to a ternary conditional independence relation
-and suitably generalized.
+and suitably generalized. This example shows how intertwined just the
+few named properties "semigraphoid", "matroidal", "linear" and "discrete
+realizable" are.
 
 With this database of CI structures, we want to list CI structures in low
 dimension and catalogue their possibly hard to compute properties to aid
@@ -57,7 +59,7 @@ This means that the database should be
   database is released as free software, the design and processes are
   documented.
 - Transparent: the software and database are [semantically versioned],
-  errata are publically posted.
+  errata are publicly posted.
 
 [open database]: https://opendatahandbook.org/guide/en/
 [CC BY-SA]: https://creativecommons.org/licenses/by-sa/4.0/
@@ -139,7 +141,7 @@ the entropy region and provides various approximations of that property:
 - `AlmostEntropic`: semimatroid of a limit of entropy vectors.
 
 In every dimension, the set of polymatroids forms a rational polyhedral cone
-whose generators should be stored up to isomophy. Since entropicness is not
+whose generators should be stored up to isomorphy. Since entropicness is not
 easy to decide, we want to store several necessary properties:
 
 - `Selfadhesive`: selfadhesivity in the sense of Matúš.
