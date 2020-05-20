@@ -205,6 +205,11 @@ primitives at the core of our software.
 - Gaussian realizability concerns (semi)algebraic geometry: decidable
   but often out of reach in practice. General methods for discrete
   realizability are unknown to me.
+- I am unaware of libraries implementing graphical model recognition
+  and inference algorithms.
+- Same about the typical symmetry groups needed in this context:
+  the symmetric group, the twisted symmetric and hyperoctahedral
+  groups.
 
 [libpropcalc]: https://github.com/taboege/libpropcalc
 [libnormaliz]: https://www.normaliz.uni-osnabrueck.de/
