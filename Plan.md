@@ -11,7 +11,7 @@ Documented are software prerequisites, database layout and computation goals.
 # DESCRIPTION
 
 The study of conditional independence (CI) structures is a field of discrete
-mathematics where one is concerned with finite sets of CI symbols (ij|K),
+mathematics where one is concerned with finite sets of CI symbols `(ij|K)`,
 consisting of two atoms i, j and a set of atoms K, over a finite ground set,
 which conform to varying systems of exchange axioms. The common denominator,
 or weakest such system, are the semigraphoid axioms inspired by conditional
@@ -174,8 +174,9 @@ The data is [semantically versioned] with the three version components
 following:
 
 - Patch: new data is added.
-- Minor: new columns are added.
-- Major: there is a backwards incompatible schema change
+- Minor: new columns are added or changed in a way that doesn't
+  affect SQL queries.
+- Major: there is a backwards-incompatible schema change
   or data errors are fixed.
 
 After its creation, the database is used in a read-only fashion, except
