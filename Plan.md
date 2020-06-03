@@ -142,7 +142,7 @@ the entropy region and provides various approximations of that property:
 
 In every dimension, the set of polymatroids forms a rational polyhedral cone
 whose generators should be stored up to isomorphy. Since entropicness is not
-easy to decide, we want to store several necessary properties:
+easy to decide, we want to store several easier related properties:
 
 - `Selfadhesive`: selfadhesivity in the sense of Matúš.
 - `ZhangYeung`: Zhang-Yeung inequality.
